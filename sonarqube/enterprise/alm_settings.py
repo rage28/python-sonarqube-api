@@ -191,7 +191,7 @@ class SonarQubeAlmSettings(RestClient):
         """
 
     @POST(API_ALM_SETTINGS_SET_GITHUB_BINDING)
-    def set_github_binding(self, almSetting, project, repository, summaryContentEnabled=True, monorepo=False):
+    def set_github_binding(self, almSetting, project, repository, monorepo, summaryContentEnabled=True):
         """
         since 8.1
         Bind a GitHub ALM instance to a project.
@@ -201,8 +201,8 @@ class SonarQubeAlmSettings(RestClient):
         :param almSetting: GitHub ALM setting key
         :param project: Project key
         :param repository: GitHub Repository
-        :param summaryContentEnabled: Enable/disable summary in PR discussion tab
         :param monorepo: (since 8.7) Is this project part of a monorepo
+        :param summaryContentEnabled: Enable/disable summary in PR discussion tab
         :return:
         """
 
