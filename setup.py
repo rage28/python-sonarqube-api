@@ -24,9 +24,9 @@ setup(
 
     description='Python wrapper for the SonarQube and SonarCloud API.',
     long_description=long_description,
-    url='https://github.com/shijl0925/python-sonarqube-api',
-    author='Jialiang Shi',
-    author_email='kevin09254930sjl@gmail.com',
+    url='https://github.com/rage28/python-sonarqube-api',
+    author='Raghavendra Bhuvan',
+    author_email='rage28@gmail.com',
     license='MIT',
 
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
